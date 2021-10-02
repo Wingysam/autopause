@@ -1,0 +1,38 @@
+{
+  "name": "autopause",
+  "version": "1.0.0",
+  "description": "Utility to automatically mine cryptocurrency with NiceHash while not gaming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix ."
+  },
+  "author": "NiceHash",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "crypto-js": "^3.1.9-1",
+    "esm": "^3.2.25",
+    "moment": "^2.29.1",
+    "qs": "^6.7.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7",
+    "spawn-please": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wingysam/autopause.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wingysam/autopause/issues"
+  },
+  "homepage": "https://github.com/Wingysam/autopause#readme"
+}
